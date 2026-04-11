@@ -3,3 +3,8 @@
 - Propósito: Crear el esqueleto HTML inicial y cumplir la etapa 1 de la rúbrica.
 - Evaluación: Útil.
 
+# Etapa 2: Mejora Visual
+- Prompt: "Mejora el archivo style.css del evento. Aplica un tema oscuro con detalles brillantes tipo neón..."
+- Propósito: Mejorar el aspecto visual usando conceptos de diseño en lugar de código técnico.
+- Evaluación: Útil.
+
