@@ -8,3 +8,7 @@
 - Propósito: Mejorar el aspecto visual usando conceptos de diseño en lugar de código técnico.
 - Evaluación: Útil.
 
+# Etapa 3: Incorporación de contenido
+- Prompt: "Modifica el index.html para agregar tres secciones nuevas debajo de la principal..."
+- Propósito: Agregar información clave del evento solicitada en la rúbrica.
+- Evaluación: Útil.
