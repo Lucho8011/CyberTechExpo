@@ -1,0 +1,5 @@
+# Etapa 1: Versión Inicial
+- Prompt: "Actúa como un desarrollador Front-end experto. Genera la estructura semántica básica en HTML5..."
+- Propósito: Crear el esqueleto HTML inicial y cumplir la etapa 1 de la rúbrica.
+- Evaluación: Útil.
+
