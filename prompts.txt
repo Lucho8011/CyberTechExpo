@@ -12,3 +12,8 @@
 - Prompt: "Modifica el index.html para agregar tres secciones nuevas debajo de la principal..."
 - Propósito: Agregar información clave del evento solicitada en la rúbrica.
 - Evaluación: Útil.
+
+# Etapa 4: Adaptación Responsive
+- Prompt: "Adapta el diseño de la página para que se vea bien en teléfonos celulares..."
+- Propósito: Asegurar la correcta visualización y legibilidad del sitio en dispositivos móviles.
+- Evaluación: Útil.
