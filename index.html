@@ -52,6 +52,34 @@
           <span>+56 9 1234 5678</span>
         </address>
       </section>
+
+      <section aria-labelledby="registro-titulo">
+        <h2 id="registro-titulo">Registro</h2>
+        <p>Completa el formulario para asegurar tu cupo.</p>
+        <form class="registro-form" action="#" method="post">
+          <div class="form-field">
+            <label for="registro-nombre">Nombre</label>
+            <input
+              id="registro-nombre"
+              name="nombre"
+              type="text"
+              autocomplete="name"
+              required
+            />
+          </div>
+          <div class="form-field">
+            <label for="registro-email">Correo electronico</label>
+            <input
+              id="registro-email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+            />
+          </div>
+          <button type="submit">Inscribirse</button>
+        </form>
+      </section>
     </main>
   </body>
 </html>

@@ -151,6 +151,74 @@ address {
   gap: 0.35rem;
 }
 
+.registro-form {
+  margin-top: 1.25rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.form-field {
+  display: grid;
+  gap: 0.5rem;
+}
+
+label {
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  background: rgba(7, 9, 16, 0.85);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 12px rgba(34, 211, 238, 0.35);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 999px;
+  padding: 0.85rem 1.5rem;
+  font-family: "Orbitron", "Space Grotesk", sans-serif;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #0b1120;
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+  box-shadow:
+    0 0 18px rgba(34, 211, 238, 0.35),
+    0 0 30px rgba(168, 85, 247, 0.35);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+button:hover,
+button:focus {
+  transform: translateY(-1px);
+  box-shadow:
+    0 0 22px rgba(34, 211, 238, 0.5),
+    0 0 36px rgba(168, 85, 247, 0.45);
+}
+
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
 a {
   color: var(--accent);
   text-decoration: none;

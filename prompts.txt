@@ -17,3 +17,8 @@
 - Prompt: "Adapta el diseño de la página para que se vea bien en teléfonos celulares..."
 - Propósito: Asegurar la correcta visualización y legibilidad del sitio en dispositivos móviles.
 - Evaluación: Útil.
+
+# Etapa 5: Mejora Final
+- Prompt: "Agrega un formulario de registro al final del 'index.html' para que los usuarios puedan inscribirse..."
+- Propósito: Incorporar un elemento interactivo clave para captar asistentes al evento.
+- Evaluación: Útil.
