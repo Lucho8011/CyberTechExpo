@@ -22,3 +22,14 @@
 - Prompt: "Agrega un formulario de registro al final del 'index.html' para que los usuarios puedan inscribirse..."
 - Propósito: Incorporar un elemento interactivo clave para captar asistentes al evento.
 - Evaluación: Útil.
+
+
+# Etapa 6: Aporte personal
+- Prompt: "Revisa mi código actual. Quiero aplicar mejoras pragmáticas de UX y accesibilidad (a11y) usando solo HTML y CSS (sin JavaScript ni sobreingeniería). Por favor, indícame cómo agregar scroll-behavior: smooth al documento, transiciones suaves de 0.3s a los botones/inputs en sus estados :hover y :focus, y agrega atributos aria-label o required a los campos del formulario en el HTML para mejorar la accesibilidad."
+- Propósito: Incorporar un elemento interactivo clave para captar asistentes al evento.
+- Evaluación: Útil.
+
+- Prompt iterativo: "Sí, por favor implementa ambas sugerencias. Agrega los estilos de :focus-visible..."
+- Propósito: Aceptar las recomendaciones de la IA para elevar el estándar de accesibilidad (WCAG) incorporando un 'skip link' y estados de foco personalizados, demostrando iteración.
+- Evaluación: Útil (elevó la calidad del producto final sin añadir sobreingeniería).
+

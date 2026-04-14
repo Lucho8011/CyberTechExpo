@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <a class="skip-link" href="#contenido-principal">
+      Saltar al contenido principal
+    </a>
     <header>
       <h1>CyberTech Expo 2026</h1>
       <p>La feria tecnologica donde se encuentra el futuro.</p>
     </header>
 
-    <main>
+    <main id="contenido-principal">
       <section aria-labelledby="hero-titulo">
         <h2 id="hero-titulo">Descripcion general</h2>
         <p>
@@ -64,6 +67,7 @@
               name="nombre"
               type="text"
               autocomplete="name"
+              aria-label="Nombre completo"
               required
             />
           </div>
@@ -74,6 +78,7 @@
               name="email"
               type="email"
               autocomplete="email"
+              aria-label="Correo electronico"
               required
             />
           </div>
