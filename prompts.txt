@@ -31,5 +31,9 @@
 
 - Prompt iterativo: "Sí, por favor implementa ambas sugerencias. Agrega los estilos de :focus-visible..."
 - Propósito: Aceptar las recomendaciones de la IA para elevar el estándar de accesibilidad (WCAG) incorporando un 'skip link' y estados de foco personalizados, demostrando iteración.
-- Evaluación: Útil (elevó la calidad del producto final sin añadir sobreingeniería).
+- Evaluación: Útil.
 
+# Etapa 7: Aporte personal
+- Prompt: "Revisa mi 'index.html' y 'style.css'. Agrega comentarios estructurales breves. En HTML, usa comentarios () solo para delimitar el inicio y fin de las secciones principales (ej. Hero, Beneficios, Contacto). En CSS, usa comentarios (/* */) para crear un índice visual, separando las variables, el reseteo base, la tipografía, los estilos de secciones y las media queries. No comentes línea por línea, solo la estructura general para que el código sea escaneable por otro desarrollador."
+- Propósito: Documentacion Basica para mejor entendimiento
+- Evaluación: Útil.
