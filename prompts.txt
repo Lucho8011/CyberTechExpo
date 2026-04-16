@@ -1,32 +1,32 @@
 # Etapa 1: Versión Inicial
-- Prompt: "Actúa como un desarrollador Front-end experto. Genera la estructura semántica básica en HTML5..."
-- Propósito: Crear el esqueleto HTML inicial y cumplir la etapa 1 de la rúbrica.
+- Prompt: "Actúa como un desarrollador Front-end experto. Genera la estructura semántica básica en HTML5 para una landing page de una feria tecnológica llamada 'CyberTech Expo 2026'. El documento debe enlazar un archivo 'style.css'. Incluye: un <header> con el título, un <main> que contenga una sección de descripción general (Hero section con fecha y lugar), y una <section> con el id 'destacados' para uso futuro. Usa etiquetas semánticas estrictas y no incluyas CSS en línea."
+- Propósito: Crear el esqueleto HTML inicial.
 - Evaluación: Útil.
 
 # Etapa 2: Mejora Visual
-- Prompt: "Mejora el archivo style.css del evento. Aplica un tema oscuro con detalles brillantes tipo neón..."
-- Propósito: Mejorar el aspecto visual usando conceptos de diseño en lugar de código técnico.
+- Prompt: "Mejora el archivo style.css del evento. Aplica un tema oscuro con detalles brillantes tipo neón para darle un aspecto de feria tecnológica moderna. Usa una tipografía atractiva, centra el título y asegúrate de que todo se vea ordenado, profesional y con buena separación entre los elementos."
+- Propósito: Mejorar el aspecto visual.
 - Evaluación: Útil.
 
 # Etapa 3: Incorporación de contenido
-- Prompt: "Modifica el index.html para agregar tres secciones nuevas debajo de la principal..."
-- Propósito: Agregar información clave del evento solicitada en la rúbrica.
+- Prompt: "Modifica el index.html para agregar tres secciones nuevas debajo de la principal: 'Beneficios de asistir', 'Cronograma de actividades' y 'Contacto'. Actualiza también el style.css para que estas nuevas secciones mantengan el mismo diseño oscuro y de neón del resto de la página."
+- Propósito: Agregar información clave del evento.
 - Evaluación: Útil.
 
 # Etapa 4: Adaptación Responsive
-- Prompt: "Adapta el diseño de la página para que se vea bien en teléfonos celulares..."
+- Prompt: "Adapta el diseño de la página para que se vea bien en teléfonos celulares. Modifica el archivo style.css para que, en pantallas pequeñas, los textos se ajusten correctamente, los espacios se reduzcan y las secciones o tarjetas se acomoden en una sola columna vertical en lugar de estar una al lado de la otra."
 - Propósito: Asegurar la correcta visualización y legibilidad del sitio en dispositivos móviles.
 - Evaluación: Útil.
 
 # Etapa 5: Mejora Final
-- Prompt: "Agrega un formulario de registro al final del 'index.html' para que los usuarios puedan inscribirse..."
+- Prompt: "Agrega un formulario de registro al final del 'index.html' para que los usuarios puedan inscribirse a la feria. Debe pedir nombre, correo electrónico y tener un botón de 'Inscribirse'. Luego, agrega en el 'style.css' el diseño necesario para que este formulario combine perfectamente con el estilo oscuro y neón que ya tiene la página."
 - Propósito: Incorporar un elemento interactivo clave para captar asistentes al evento.
 - Evaluación: Útil.
 
 
 # Etapa 6: Aporte personal
 - Prompt: "Revisa mi código actual. Quiero aplicar mejoras pragmáticas de UX y accesibilidad (a11y) usando solo HTML y CSS (sin JavaScript ni sobreingeniería). Por favor, indícame cómo agregar scroll-behavior: smooth al documento, transiciones suaves de 0.3s a los botones/inputs en sus estados :hover y :focus, y agrega atributos aria-label o required a los campos del formulario en el HTML para mejorar la accesibilidad."
-- Propósito: Incorporar un elemento interactivo clave para captar asistentes al evento.
+- Propósito: Consultas, ideas y propuestas.
 - Evaluación: Útil.
 
 - Prompt iterativo: "Sí, por favor implementa ambas sugerencias. Agrega los estilos de :focus-visible..."
@@ -36,4 +36,13 @@
 # Etapa 7: Aporte personal
 - Prompt: "Revisa mi 'index.html' y 'style.css'. Agrega comentarios estructurales breves. En HTML, usa comentarios () solo para delimitar el inicio y fin de las secciones principales (ej. Hero, Beneficios, Contacto). En CSS, usa comentarios (/* */) para crear un índice visual, separando las variables, el reseteo base, la tipografía, los estilos de secciones y las media queries. No comentes línea por línea, solo la estructura general para que el código sea escaneable por otro desarrollador."
 - Propósito: Documentacion Basica para mejor entendimiento
+- Evaluación: Útil.
+
+# Etapa 8: Aporte personal
+- Prompt: "Actúa como un auditor de calidad web (QA). Revisa mi 'index.html' bajo los estándares del W3C y buenas prácticas de seguridad Front-end. Verifica lo siguiente:
+Que todo enlace externo (target='_blank') tenga el atributo de seguridad rel='noopener noreferrer'.
+Que el formulario tenga los atributos básicos action='#' y method='POST' aunque no sea funcional.
+Que no falte ninguna etiqueta de cierre.
+Corrige el HTML entregándome el código actualizado y explícame brevemente qué mejoras aplicaste."
+- Propósito: Auditoria
 - Evaluación: Útil.
